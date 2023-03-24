@@ -8,7 +8,7 @@ random_questions = []
 X=1
 
 while X <= RANDOMS:
-    random_questions.append(random.choice(list(available_questions)))
+    random_questions.append(random.choice(list(AVAILABLE_QUESTIONS)))
     X = X + 1
     AVAILABLE_QUESTIONS.remove(random_questions[-1])
 
